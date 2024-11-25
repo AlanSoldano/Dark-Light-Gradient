@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.querySelectorAll('.flip').forEach(flip => {
-  link.addEventListener('dragstart', (event) => {
+  flip.addEventListener('dragstart', (event) => {
     event.preventDefault();
   });
 });
